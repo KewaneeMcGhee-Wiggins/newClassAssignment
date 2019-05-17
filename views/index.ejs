@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Me</title>
+</head>
+
+<body>
+  <h1> </h1>
+  <p>Me llamo  <%= aName%> </p>
+  <p>I am <%= aAge%> years old.</p>
+  <p>Some of my hobbies are:</p>
+  <%# What is missing here? %>
+  <ul>
+      <%= aHobbies %>
+      <% for(let i = 0; i< aHobbies.length; i++ ){%>
+<li> <%= aHobbies[i]%></li>
+
+     <% } %>
+  </ul>
+
+  
+  <p>I am a <%= aProfession%></p>
+</body>
+</html>
